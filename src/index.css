@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(/src/assets/images/pozadina.png);
+  background-size: 100%;
+  background-repeat: repeat-y;
+  border-bottom: none;
+  padding: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+	font-family: Mont;
+	src: url(../src/assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: RobotoL;
+	src: url(../src/assets/fonts/Roboto-Light.ttf);
+} 
+
+@font-face {
+	font-family: Tempsitc;
+	src: url(../src/assets/fonts/TEMPSITC.TTF);
+} 

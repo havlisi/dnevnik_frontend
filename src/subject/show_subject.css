@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/src/assets/images/pozadina.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+    border-bottom: none;
+    padding: 20px;
+    font-family: Mont;
+}
+  
+@font-face {
+	font-family: Mont;
+	src: url(/src/assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: RobotoL;
+	src: url(/src/assets/fonts/Roboto-Light.ttf);
+} 
+
+  /* done */
+.input-field {
+    margin-top: 25px;
+    padding: 10px 80px;
+    border: 0.3px solid #6bb187;
+    color: #033e1b;
+    border-radius: 15px;
+    font-size: 1em;
+}
+
+/* done */
+.input-field:hover {
+    box-shadow: 0 0 5px #6bb187;
+}
+
+/* done */
+.container-show-subjects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(196px, 1fr));
+    grid-gap: 36px;
+    margin: 40px auto;
+    width: 70%;
+}
+
+.subject-card {
+    border: 1px solid #6bb187;
+    border-radius: 10px;
+}
+
+/* DONE */
+.card-header {
+    color: white;
+    border-radius: 9px 9px 0px 0px;
+    font-size: 1.3em;
+    background-color: #6bb187;
+    padding: 7% 0%;
+}
+
+.card-body {
+    font-family: RobotoL;
+    font-weight: bold;
+    line-height: 1.7;
+    background-color: rgba(233, 240, 199, 0.396);
+    backdrop-filter: blur(10px);
+    color: #418258;
+    border-radius: 0px 0px 9px 9px;
+}
+
+/* done */
+.card-content {
+    text-align: left;
+    padding: 15px 20px;
+}
+
+.description {
+    text-align: left;
+    font-style: italic;
+    color: #156631;
+    font-family: RobotoL;
+    font-weight: normal !important;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.btn {
+    font-family: Mont;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    width: 30%;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    box-shadow: 0 1.5px 5px #588b6d;
+    border-radius: 10px;
+    padding: 4px 24px;
+    background-color: white;    
+    color: #6bb187;
+    cursor: pointer;
+}
+  
+.btn:hover {
+    background-color: #81c89d;
+    color: white;
+}
